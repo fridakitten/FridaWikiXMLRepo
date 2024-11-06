@@ -1,7 +1,6 @@
 <hierachie>
   <section name="meow">
-    <text content="Hello World"/>
-    <navlink file="../meow.xml"/>
+    <navlink title="Swift" file="swift.xml"/>
   </section>
   <text content="meow :3"/>
 </hierachie>
