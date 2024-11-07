@@ -1,4 +1,5 @@
 <hierachie>
   <text content="main();" type="1"/>
   <text content="This is a multi-line&#10;string in XML.&#10;Special characters like &lt;, &gt;, and &amp; will not be parsed." type="1"/>
+  <text content="This is a multi-line&#10;string in XML.&#10;Special characters like &lt;, &gt;, and &amp; will not be parsed." type="1"/>
 </hierachie>
