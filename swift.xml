@@ -1,3 +1,4 @@
 <hierachie>
   <text content="main();" type="1"/>
+  <text content="void main(void) {\n    test();\n}" type="1"/>
 </hierachie>
