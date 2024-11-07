@@ -1,10 +1,13 @@
 <hierachie>
-  <section name="internal">
+  <section name="Internal">
     <navlink title="FCM" file="fcm.xml"/>
   </section>
   <section name="languages">
     <navlink title="Swift" file="swift.xml"/>
     <navlink title="C" file="c.xml"/>
+    <navlink title="ObjC" file="objc.xml"/>
+    <navlink title="C++" file="cpp.xml"/>
+    <navlink title="ObjC++" file="objcpp.xml"/>
   </section>
   <text content="Last Updated: 07.11.2024" type="0"/>
 </hierachie>
