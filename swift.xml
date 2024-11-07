@@ -1,4 +1,6 @@
 <hierachie>
-  <text content="main();" type="1"/>
-  <text content="Meow \n Meow \n Meow" type="1"/>
+  <section name="Function Declarations">
+      <text content="Declare functions by using 'func'" type="0"/>
+      <text content="func myfunction() -> Void {\n    return\n}" type="1"/>
+  </section>
 </hierachie>
