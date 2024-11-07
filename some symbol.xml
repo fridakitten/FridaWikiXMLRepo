@@ -1,9 +1,5 @@
 <hierachie>
-  <text type="1">
-    <![CDATA[
-    This is a multi-line
-    string in XML.
-    Special characters like <, >, and & will not be parsed.
-    ]]>
-    </text>
+    </text content="Hello
+  World
+  Meow" type="1">
 </hierachie>
