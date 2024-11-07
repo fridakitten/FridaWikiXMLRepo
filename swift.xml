@@ -2,5 +2,6 @@
   <section name="categories">
       <navlink title="Getting Started" file="swift_started.xml"/>
       <navlink title="Protection Levels" file="swift_prot.xml"/>
+      <navlink title="Memory Management" file="swift_mem.xml"/>
   </section>
 </hierachie>
