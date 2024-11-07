@@ -7,7 +7,7 @@
       <text content="// Example:\nclass Person {\n    var name: String\n    init(name: String) {\n        self.name = name\n    }\n}\nvar person1: Person? = Person(name: \'John\')\nperson1 = nil  // ARC deallocates the Person instance as there are no strong references." type="1"/>
   </section>
   <section name="Strong, Weak, and Unowned References">
-      <text content="Swift provides three types of references—strong, weak, and unowned—to manage ownership of instances and prevent memory leaks:\n \n**Strong References**: The default; keeps a strong hold on the instance, preventing it from being deallocated.\n \n**Weak References**: Allows references without strong ownership, useful to prevent strong reference cycles, especially in delegate patterns.\n \n**Unowned References**: Similar to weak references but assumes the reference will always have a value, often used in parent-child relationships.\n" type="0"/>
+      <text content="Swift provides three types of references—strong, weak, and unowned—to manage ownership of instances and prevent memory leaks:\n \n**Strong References**: The default; keeps a strong hold on the instance, preventing it from being deallocated.\n \n**Weak References**: Allows references without strong ownership, useful to prevent strong reference cycles, especially in delegate patterns.\n \n**Unowned References**: Similar to weak references but assumes the reference will always have a value, often used in parent-child relationships.\n " type="0"/>
       <text content="// Example:\nclass Apartment {\n    weak var tenant: Person?\n}\n" type="1"/>
   </section>
   <section name="Strong Reference Cycles">
