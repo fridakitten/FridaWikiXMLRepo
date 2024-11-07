@@ -1,5 +1,5 @@
 <hierachie>
-  <section name="">
+  <section name="categories">
       <navlink title="Getting Started" file="swift_started.xml"/>
   </section>
 </hierachie>
