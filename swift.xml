@@ -1,36 +1,5 @@
 <hierachie>
-  <section name="Getting Started with Swift">
-      <text content="Swift is a powerful and intuitive programming language developed by Apple for building iOS, macOS, watchOS, and tvOS applications." type="0"/>
-  </section>
-
-  <section name="First Swift Program">
-      <text content="Here is an example of a basic Swift program that prints 'Hello, World!' to the console:" type="0"/>
-      <text content="print('Hello, World!')" type="1"/>
-  </section>
-  
-    <section name="Variables and Constants">
-      <text content="In Swift, you can declare variables using 'var' and constants using 'let'.\nVariables can be changed after they are initialized, whereas constants cannot.\nHere is an example of declaring a variable and a constant:" type="0"/>
-      <text content="var myVariable = 10" type="1"/>
-      <text content="let myConstant = 20" type="1"/>
-  </section>
-
-  <section name="Functions">
-      <text content="Functions are defined using the 'func' keyword, followed by the function name and its parameters.\nA function can also return a value, or perform actions without returning anything.\nHere is an example of a simple Swift function:" type="0"/>
-      <text content="func greet(name: String) -> String {\n    return 'Hello, \(name)!'\n}" type="1"/>
-  </section>
-
-  <section name="Control Flow">
-      <text content="Swift supports common control flow structures such as if-else, loops, and switch statements.\nHere is an example of an 'if' statement in Swift:" type="0"/>
-      <text content="let age = 25\nif age >= 18 {\n    print('Adult')\n} else {\n    print('Not an adult')\n}" type="1"/>
-  </section>
-
-  <section name="Collections">
-      <text content="Swift provides arrays, dictionaries, and sets as basic collection types.\nHere is an example of creating an array and accessing its elements:" type="0"/>
-      <text content="var fruits = ['Apple', 'Banana', 'Cherry']\nprint(fruits[0])" type="1"/>
-  </section>
-  
-  <section name="Classes and Structures">
-      <text content="Swift supports object-oriented programming with classes and structures.\nClasses can have properties and methods, while structures are value types.\nHere is an example of a simple class in Swift:" type="0"/>
-      <text content="class Dog {\n    var name: String\n\n    init(name: String) {\n        self.name = name\n    }\n\n    func bark() {\n        print('Woof!')\n    }\n}" type="1"/>
+  <section name="">
+      <navlink title="Getting Started" file="swift_started.xml"/>
   </section>
 </hierachie>
