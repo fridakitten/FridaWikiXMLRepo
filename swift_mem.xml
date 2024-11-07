@@ -15,7 +15,7 @@
   </section>
   <section name="Resolving Strong Reference Cycles with Closures">
       <text content="Closures can also create strong reference cycles by capturing 'self' strongly. Swift allows developers to use capture lists to break these cycles, ensuring that closures don’t hold strong references unnecessarily." type="0"/>
-      <text content="// Example:\nclass ViewController {\n    var closure: (() -> Void)?\n\n    func setupClosure() {\n        closure = { [weak self] in\n            print(self?.description ?? \"No self\")\n        }\n    }\n}" type="1"/>
+      <text content="// Example:\nclass ViewController {\n    var closure: (() -> Void)?\n\n    func setupClosure() {\n        closure = { [weak self] in\n            print(self?.description ?? \'No self\')\n        }\n    }\n}" type="1"/>
   </section>
   <section name="Summary of Memory Management">
       <text content="Memory management in Swift relies on ARC, which is efficient but requires careful use of references to prevent leaks. Understanding strong, weak, and unowned references is essential for efficient and safe memory management in Swift applications." type="0"/>
