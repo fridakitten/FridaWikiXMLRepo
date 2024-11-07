@@ -4,6 +4,7 @@
   </section>
   <section name="languages">
     <navlink title="Swift" file="swift.xml"/>
+    <break spacing="25"/>
     <navlink title="C" file="c.xml"/>
   </section>
   <text content="Last Updated: 07.11.2024" type="0"/>
