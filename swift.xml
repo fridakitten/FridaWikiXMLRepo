@@ -1,6 +1,73 @@
 <hierachie>
-  <section name="Function Declarations">
-      <text content="Declare functions by using 'func'" type="0"/>
-      <text content="func myfunction() -> Void {\n    return\n}" type="1"/>
-  </section>
+    <section name="Introduction">
+        <text content="Swift is a powerful programming language for iOS, macOS, watchOS, and tvOS app development." type="0"/>
+        <text content="It is designed to be safe, fast, and expressive, making it easy for beginners to get started." type="0"/>
+    </section>
+
+    <section name="Basic Syntax">
+        <text content="Swift syntax is concise and readable, with many modern programming features." type="0"/>
+        
+        <subsection name="Variables">
+            <text content="Declare variables using 'var' and constants using 'let'." type="0"/>
+            <text content="Example:" type="0"/>
+            <text content="var myVariable = 10\nlet myConstant = 20" type="1"/>
+        </subsection>
+        
+        <subsection name="Data Types">
+            <text content="Swift is a type-safe language, meaning it helps ensure that variables are only assigned compatible data types." type="0"/>
+            <text content="Common data types include Int, Double, String, and Bool." type="0"/>
+            <text content="Example:" type="0"/>
+            <text content="let age: Int = 25\nlet name: String = \"John\"" type="1"/>
+        </subsection>
+        
+        <subsection name="Control Flow">
+            <text content="Control flow structures in Swift include loops and conditional statements." type="0"/>
+            
+            <subsection name="If Statements">
+                <text content="Use 'if' statements to execute code based on a condition." type="0"/>
+                <text content="Example:" type="0"/>
+                <text content="if age > 18 {\n    print(\"Adult\")\n}" type="1"/>
+            </subsection>
+            
+            <subsection name="For Loops">
+                <text content="Use 'for' loops to iterate over sequences." type="0"/>
+                <text content="Example:" type="0"/>
+                <text content="for i in 1...5 {\n    print(i)\n}" type="1"/>
+            </subsection>
+        </subsection>
+    </section>
+
+    <section name="Function Declarations">
+        <text content="Declare functions by using 'func'." type="0"/>
+        <text content="Example:" type="0"/>
+        <text content="func myFunction() -> Void {\n    return\n}" type="1"/>
+        
+        <subsection name="Parameters and Return Types">
+            <text content="Functions can accept parameters and return values." type="0"/>
+            <text content="Specify parameter names and types within parentheses." type="0"/>
+            <text content="Example:" type="0"/>
+            <text content="func greet(name: String) -> String {\n    return \"Hello, \\(name)!\"\n}" type="1"/>
+        </subsection>
+    </section>
+    
+    <section name="Object-Oriented Programming">
+        <text content="Swift supports object-oriented programming principles, such as classes and inheritance." type="0"/>
+        
+        <subsection name="Classes">
+            <text content="Define a class using the 'class' keyword." type="0"/>
+            <text content="Example:" type="0"/>
+            <text content="class Animal {\n    var name: String\n    init(name: String) {\n        self.name = name\n    }\n}" type="1"/>
+        </subsection>
+        
+        <subsection name="Inheritance">
+            <text content="Swift allows classes to inherit properties and methods from other classes." type="0"/>
+            <text content="Example:" type="0"/>
+            <text content="class Dog: Animal {\n    func bark() {\n        print(\"Woof!\")\n    }\n}" type="1"/>
+        </subsection>
+    </section>
+
+    <section name="Conclusion">
+        <text content="Swift is a versatile language that allows for efficient and safe app development." type="0"/>
+        <text content="With this basic understanding, you can start exploring more advanced Swift features." type="0"/>
+    </section>
 </hierachie>
