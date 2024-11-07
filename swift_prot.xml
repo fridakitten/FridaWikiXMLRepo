@@ -1,0 +1,29 @@
+<hierachie>
+  <section name="Protection Levels in Swift">
+      <text content="Swift provides several access control levels to control the visibility and accessibility of code across different parts of an application. These access levels help developers manage the scope of functionality and data access, ensuring proper encapsulation and security." type="0"/>
+  </section>
+
+  <section name="Open and Public">
+      <text content="The 'open' and 'public' access levels allow code to be accessed from any module, making it available both inside the current module and to external modules that import it.\n- 'open': Only applicable to classes and class members, allows both accessing and subclassing or overriding outside the defining module.\n- 'public': Allows access from any module but does not allow subclassing or overriding outside the module." type="0"/>
+      <text content="// Example:\npublic class Car {\n    public var color: String\n    public init(color: String) {\n        self.color = color\n    }\n}" type="1"/>
+  </section>
+
+  <section name="Internal">
+      <text content="The 'internal' access level is the default in Swift. It restricts code to be accessible only within the module it is defined in. Internal access is ideal for components that are only meant to be used within the same app or framework but hidden from external modules." type="0"/>
+      <text content="// Example:\ninternal class Engine {\n    internal var horsepower: Int\n    init(horsepower: Int) {\n        self.horsepower = horsepower\n    }\n}" type="1"/>
+  </section>
+
+  <section name="Fileprivate">
+      <text content="The 'fileprivate' access level restricts access to code within the same source file. This is useful for hiding implementation details from other parts of the module but allowing multiple components in the same file to interact closely." type="0"/>
+      <text content="// Example:\nfileprivate class Transmission {\n    fileprivate func shift() {\n        print('Shifting gears')\n    }\n}" type="1"/>
+  </section>
+
+  <section name="Private">
+      <text content="The 'private' access level restricts access to the enclosing declaration and to extensions of that declaration within the same file. This level of access control is the most restrictive and is often used to hide implementation details within a class or structure." type="0"/>
+      <text content="// Example:\nclass Vehicle {\n    private var fuelLevel = 100\n    private func refuel() {\n        fuelLevel = 100\n    }\n}" type="1"/>
+  </section>
+
+  <section name="Summary of Access Levels">
+      <text content="Swift's access control levels, from least restrictive to most restrictive, are:\n1. Open (for classes and members)\n2. Public\n3. Internal (default)\n4. Fileprivate\n5. Private\nChoosing the appropriate access level is important for balancing encapsulation and code accessibility." type="0"/>
+  </section>
+</hierachie>
