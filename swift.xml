@@ -1,5 +1,6 @@
 <hierachie>
   <section name="categories">
       <navlink title="Getting Started" file="swift_started.xml"/>
+      <navlink title="Protection Levels" file="swift_prot.xml"/>
   </section>
 </hierachie>
