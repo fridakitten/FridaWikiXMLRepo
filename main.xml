@@ -1,5 +1,8 @@
 <hierachie>
-  <section name="meow">
+  <section name="internal">
+    <navlink title="FCM" file="fcm.xml"/>
+  </section>
+  <section name="languages">
     <navlink title="Swift" file="swift.xml"/>
     <navlink title="C" file="c.xml"/>
   </section>
